@@ -7,11 +7,14 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <input type="text", id="search", name="search"></input> 
+    <input type="text", id="search", name="search"></input>
+    <button onclick="window.location.href = "search.html?name=" + document.getElementById("search").value">Find Book</button>
+    <br>
+    <div id="results" class="results">
+    </div>
     <script src="script2.js"></script>
-    <button onclick="findBook();">Find Book</button>
     <div class="bottom">
-      (C) 1991 - 1994 Dekafii, Inc
+      (C) 1991 - 1996 Dekafii, Inc
     </div>
   </body>
 </html>
